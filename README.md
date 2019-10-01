@@ -2,14 +2,14 @@ Welcome to weber's page
 ------------------
 About me 
 
-◆college:東吳大學
+◆College:東吳大學
 
-◆grade:大三
+◆Grade:大三
 
-◆major:巨量資料管理學系
+◆Major:巨量資料管理學系
 
-◆skill: invest stock、futures、option
+◆Skill: invest stock、futures、option
 
-◆my lover : dolly(dog)
+◆My lover : dolly(dog)
 
 
