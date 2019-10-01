@@ -1,7 +1,10 @@
 Welcome to weber's page
 ------------------
 About me 
+------------------
+廖偉博
 
+◆English name: Weber
 
 ◆College:東吳大學
 
@@ -12,5 +15,6 @@ About me
 ◆Skill: invest stock、futures、option
 
 ◆My lover : dolly(dog)
+
 
 
