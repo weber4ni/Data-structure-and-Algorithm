@@ -8,7 +8,7 @@ About me
 
 ◆major:巨量資料管理學系
 
-◆interest: invest stock、futures、option
+◆skill: invest stock、futures、option
 
 ◆my lover : dolly(dog)
 
