@@ -1,6 +1,5 @@
 CodeSignal python  <simpleSort>
 -------------------------------
-
 def simpleSort(arr):
 
     n = len(arr)
