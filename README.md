@@ -1,8 +1,7 @@
 Welcome to weber's page
 ------------------
-About me 
+About 廖偉博
 ------------------
-廖偉博
 
 ◆English name: Weber
 
