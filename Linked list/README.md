@@ -16,14 +16,13 @@ linkd list　是由一連串的node所構成，每個node指向下一個node，�
 ```python=
 node1 = ListNode(37) //新增一個37數字到著個節點裡
 ```  
-*listnodefirst: 表示第一個node
+*listnode: 如何建置
 ```python=
 class ListNode:
   def __init__(self, data): 
-    # store data
-    self.data = data
-    # store the reference (next item)
-    self.next = None
+    
+    self.data = data                  //store data
+    self.next = None                  //store the reference (next item)
     return
  ```  
 *pointer :記錄下一個node的位子，才能在node中移動(travesal)
@@ -32,12 +31,12 @@ class ListNode:
 接下來試著建立一個 自己的 list 
 ```python=
 class SingleLinkedList:
-  def __init__(self): 
+  def __init__(self):                 //initialize this object
     self.head = None
     self.tail = None
-    reture     ///
-def add_list_item(self, item):
-/// make sure item is a proper node  
+    reture     
+    
+def add_list_item(self, item):        // make sure item is a proper node  
    if not isinstance(item, ListNode):
     item = ListNode(item) 
    if self.head is None:
@@ -49,7 +48,7 @@ def add_list_item(self, item):
     
 list1 = SingleLinkedList()
 list1.add_list_item(node1)
-list1.add_list_item(38)
+list1.add_list_item(38)              // 建置好list1 內有37、38兩個數值
  ```
  
 
