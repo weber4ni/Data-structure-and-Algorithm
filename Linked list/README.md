@@ -3,6 +3,7 @@ _____________________________________
 
 # What is linkd list??
 linkd list　是由一連串的node所構成，每個node指向下一個node，最後一個node指向Null( python is None)
+![image](https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/linked.png)
 
 # Why we need linked list??
 * 這用 linked list 的優點說明比較清楚
@@ -32,4 +33,4 @@ class ListNode:
 # What is different between ARRAY ??
 
 一張圖看懂ARRAY VS Linked list
-
+![image](https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/differ.png)
