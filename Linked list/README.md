@@ -16,7 +16,7 @@ linkd list　是由一連串的node所構成，每個node指向下一個node，�
 ```python=
 node1 = ListNode(15)
 ```  
-*listnode*first: 表示第一個node
+*listnodefirst: 表示第一個node
 ```python=
 class ListNode:
   def __init__(self, data): 
@@ -28,7 +28,7 @@ class ListNode:
  ```  
 *pointer :記錄下一個node的位子，才能在node中移動(travesal)
 
-**補充** 屬性(attribute):每個node本身有2個屬性，一個是本身的值，另一個是pointer
+**補充**: 屬性(attribute):每個node本身有2個屬性，一個是本身的值，另一個是pointer
 
 # What is different between ARRAY ??
 
