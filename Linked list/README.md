@@ -14,7 +14,7 @@ linkd list　是由一連串的node所構成，每個node指向下一個node，�
 
 *node : 節點
 ```python=
-node1 = ListNode(15)
+node1 = ListNode(37) //新增一個37數字到著個節點裡
 ```  
 *listnodefirst: 表示第一個node
 ```python=
@@ -27,6 +27,31 @@ class ListNode:
     return
  ```  
 *pointer :記錄下一個node的位子，才能在node中移動(travesal)
+
+*Single Linked-list:在建立list的一開始，我們預設裡面是沒有節點的。而linked-list本身帶有head跟tail兩個屬性
+接下來試著建立一個 自己的 list 
+```python=
+class SingleLinkedList:
+  def __init__(self): 
+    self.head = None
+    self.tail = None
+    reture     ///
+def add_list_item(self, item):
+/// make sure item is a proper node  
+   if not isinstance(item, ListNode):
+    item = ListNode(item) 
+   if self.head is None:
+    self.head = item
+  else:
+    self.tail.next = item
+    self.tail = item
+  return     
+    
+list1 = SingleLinkedList()
+list1.add_list_item(node1)
+list1.add_list_item(38)
+ ```
+ 
 
 **補充**: 屬性(attribute):每個node本身有2個屬性，一個是本身的值，另一個是pointer
 
