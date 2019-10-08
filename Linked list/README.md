@@ -1,7 +1,7 @@
 # Linked list
 _____________________________________
 
-# What is linkd list??
+# What is linked list??
 linkd list　是由一連串的node所構成，每個node指向下一個node，最後一個node指向Null( python is None)
 ![image](https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/linked.png)
 
