@@ -2,6 +2,7 @@
 ____________________________________
 # What is Stack & Queue
 ![image](https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/455.jpg)
+![image](https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/789.png)
 
 # Why we need Stack??
 * 編譯器(word、sublime)的 undo 。
