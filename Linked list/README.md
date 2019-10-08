@@ -16,6 +16,8 @@ linkd list　是由一連串的node所構成，每個node指向下一個node，�
 ```python=
 node1 = ListNode(37) //新增一個37數字到著個節點裡
 ```  
+*len(list):要計算元素個數的列表
+
 *listnode: 如何建置
 ```python=
 class ListNode:
