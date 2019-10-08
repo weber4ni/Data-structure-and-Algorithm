@@ -17,7 +17,7 @@ ____________________________________
 * getSize: 回傳stack 裡的資料個數。
 
 # Why we need Queue??
-*應用在其他演算法: 
-    Bread-First Search | 廣度優先搜尋
-    Tree 的 Level-Order Traversal | 二元樹走訪
+* 應用在其他演算法: 
+    * Bread-First Search | 廣度優先搜尋
+    * Tree 的 Level-Order Traversal | 二元樹走訪
 * 作業係統被多個程式共享資源時(例如CPU、應表機、網站伺服器)，一次只能執行一個需求，所以需要用 Queue 來安排執行順序。
