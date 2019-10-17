@@ -1,4 +1,4 @@
-## introduce Quicksort
+## Introduce Quicksort
 -------------------------
 ## 基本概念
 使用Divide and Conquer的演算法來實作。概念是從數列中挑選一個基準點(pivot)，大於基準的放一邊，小於的放一邊，直到該下一個為未排序，循環最後即可完成排序。
