@@ -15,3 +15,5 @@
 ## 不適合使用的時機
 因為適用迴圈的方式來運作，所以當不是合用迴圈時，也不適合使用，會減少效率 。EX :費波那西數列(fibonacci)
 
+## Quicksort homework jupyter NB網址
+ http://localhost:8888/notebooks/Untitled.ipynb
