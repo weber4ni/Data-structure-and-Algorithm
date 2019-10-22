@@ -18,7 +18,7 @@ About 廖偉博
 ------------------
 ## Homework
 
-homework1 quicksort
+- [homework1 quicksort](https://github.com/weberliao/Data-structure-and-Algorithm/tree/master/Quicksort)
 
 
 
