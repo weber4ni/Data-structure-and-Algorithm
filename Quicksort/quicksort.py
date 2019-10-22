@@ -3,7 +3,7 @@ def quicksort(list):
     right = [ ]
     middle = [ ]
     
-    if len(list)>1:     #if條件指當len裡的數值只剩1個時，停止分類且return
+    if len(list)>=1:     #if條件指當len裡的數值只剩1個時，停止分類且return
         pivot = list[0]    #設第一個數為基準點，避免若剩下1個數字時 index out of range
 
         for i in list:
