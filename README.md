@@ -13,12 +13,10 @@ About 廖偉博
 
 ◆Skill: invest stock、futures、option
 
-◆My lover : dolly(dog)
-<img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/_MG_0058.JPG" height='500' weight='350'>
 ------------------
 ## Homework
 
-- [homework1 quicksort](https://github.com/weberliao/Data-structure-and-Algorithm/tree/master/Quicksort)
+- [hw1-quicksort](https://github.com/weberliao/Data-structure-and-Algorithm/tree/master/Quicksort)
 
 
 
