@@ -21,10 +21,7 @@
 for迴圈要每次都要指定一個pivot，要把pivot=list[0]放在迴圈裡
 
 
-
-
 ## 不適合使用的時機
 因為適用迴圈的方式來運作，所以當此解法不適用迴圈時，也不適合使用，會減少效率 。EX :費波那西數列(fibonacci)
 
-## Quicksort homework jupyter NB網址
- http://localhost:8888/notebooks/Untitled.ipynb
+
