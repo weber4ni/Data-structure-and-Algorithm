@@ -17,7 +17,7 @@
 2.若小於pivot 放左邊 、等於pivot 抓出來、大於pivot放右邊
 3.左邊list 、右邊list ，重複第2.動作 → 可用for迴圈執行
 
-**improve
+**improvetth
 
 
 
