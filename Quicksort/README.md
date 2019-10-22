@@ -11,6 +11,7 @@
                                                         
 ## 流程圖
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/asd.jpg" height='500' weight='350'>
+
 ## 執行過程
 想法是
 1.先指定一個 list中的 pivot
