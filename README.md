@@ -17,7 +17,7 @@ About 廖偉博
 ## Homework
 
 - [hw1-quicksort](https://github.com/weberliao/Data-structure-and-Algorithm/tree/master/Quicksort)
-- [hw2-mergesort/heapsort]
+- [hw2-mergesort/heapsort](https://github.com/weberliao/Data-structure-and-Algorithm/tree/master/HW2)
 
 
 
