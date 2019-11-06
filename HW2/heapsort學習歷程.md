@@ -25,14 +25,6 @@ Heap的原意是「堆」的意思，Heapsort的特點就是完全以二元樹�
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Heapsort流程圖
+<img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/68747470733a2f2f692e696d6775722e636f6d2f354747304970432e706e67.png
+" height='700' weight='550'>
