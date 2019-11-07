@@ -5,6 +5,7 @@
 
 
 ## 學習歷程
+<img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/merge.jpg" height='700' weight='550'>
 
 
 
