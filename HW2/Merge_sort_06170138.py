@@ -21,3 +21,4 @@ class Solution():
          rightData = self.merge_sort(right)#同上
 
          return self.mergeList(leftData, rightData)#回傳2值
+#參考資料:https://github.com/jeff880714/lesson/blob/master/HW2/heap_sort_06170118.py
