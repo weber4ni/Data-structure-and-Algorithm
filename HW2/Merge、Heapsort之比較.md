@@ -10,15 +10,18 @@
 -------------------------
 用到迴圈的地方:
 
-mergesort```if left[0] <= right[0]:
+mergesort```
+             if left[0] <= right[0]:
 
              return [left[0]]+self.mergeList(left[1:], right)
              
              if left[0] >= right[0]: 
          
              return [right[0]]+self.mergeList(left, right[1:])
+        ```
 heapsort
-             ```for i in range(n,-1,-1):
+         ```
+             for i in range(n,-1,-1):
              
             if 2*i+1<n and nums[i]<nums[2*i+1]:
             
@@ -28,7 +31,9 @@ heapsort
             
                 nums[i],nums[2*i+2]=nums[2*i+2],nums[i]#
                 
-            else:```
+            else:
+                  continue
+            ```
 
 ## 相同之處
 ---------------------------
