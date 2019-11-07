@@ -8,15 +8,17 @@
 與heapsort一樣，都是先自己畫完流程圖後，就會比較知道一開始該定義的函數、需要的程式碼是那些。最後找出需要用迴圈、if else跑出的地方。
 
 首先
-def merge_sort(self, nums):                                                                  
-   if len(nums) <=1 :                                                                    
-          return nums                                                
-          middle = 2/len(nums)
-          leftlen = middle
-          rightlen = len(nums)-leftlen
+```class solution( ):
+    def merge_sort(nums):
+                     if len(nums) <=1 :
+                             return nums
+                        else :
+                        middle = len(nums)//2
+                        left= nums[:middle]
+                        right = nums[len(nums)-leftlen]```
 這是一開始看流程圖需要的地方
 
-2.再來就是要用迴圈分割到最小的地方                        
+2.再來就是要用迴圈分割到最小的地方，發現值些用分割成最小的比較反而比較方便                     
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/merge.jpg" height='700' weight='550'>
 
 
