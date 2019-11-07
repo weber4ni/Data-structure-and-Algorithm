@@ -17,3 +17,4 @@
             data[: :-1]#因為是maxhea所以反轉過來
         return data#返回data
        #參考資料:https://github.com/wellslu/DSA/blob/master/HW2/heap_sort_06170107.py
+       #參考資料:https://github.com/jeff880714/lesson/blob/master/HW2/heap_sort_06170118.py
