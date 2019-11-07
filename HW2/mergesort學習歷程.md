@@ -15,7 +15,8 @@
                         else :
                         middle = len(nums)//2
                         left= nums[:middle]
-                        right = nums[len(nums)-leftlen]```
+                        right = nums[len(nums)-leftlen]
+```                        
 這是一開始看流程圖需要的地方
 
 2.再來就是要用迴圈分割到最小的地方，發現值些用分割成最小的比較反而比較方便                     
