@@ -32,5 +32,15 @@ heapsort
 
 ## 相同之處
 ---------------------------
+因為這次有用到self回傳變數的問題，參考查了許多回傳的關鍵方法，技巧在於設變數放的位子要在主要執行程式的地方
+for example mergesort
+```
+ def merge_sort(self,nums):
+         if len(nums)<=1:#如果list只有一個值，直接回傳
+             return nums
+         mid = len(nums)//2#找出中間值
+         left = nums[:mid]# left值=0~mid
+         right = nums[mid:]#right值=mid~-1
+```
 
 
