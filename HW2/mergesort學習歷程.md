@@ -19,7 +19,8 @@
 ```                        
 這是一開始看流程圖需要的地方
 
-2.再來就是要用迴圈分割到最小的地方，發現值些用分割成最小的比較反而比較方便                     
+2.再來就是要用迴圈分割到最小的地方，發現值些用分割成最小的比較反而比較方便
+3.最後發現上述用到的程式碼必須放在```def merge_sort(nums):```裡，放在其他藉由self自訂函數，會偵測不到功能
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/merge.jpg" height='700' weight='550'>
 
 
