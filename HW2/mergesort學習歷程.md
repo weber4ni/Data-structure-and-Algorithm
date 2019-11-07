@@ -13,6 +13,7 @@
           leftlen = middle
           rightlen = len(nums)-leftlen
 這是一開始看流程圖需要的地方
+
 2.再來就是要用迴圈分割到最小的地方                        
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/merge.jpg" height='700' weight='550'>
 
