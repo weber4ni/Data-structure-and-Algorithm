@@ -19,10 +19,15 @@ mergesort```if left[0] <= right[0]:
              return [right[0]]+self.mergeList(left, right[1:])
 heapsort
              ```for i in range(n,-1,-1):
+             
             if 2*i+1<n and nums[i]<nums[2*i+1]:
+            
                 nums[i],nums[ 2*i+1]=nums[ 2*i+1],nums[i]
+                
             if 2*i+2<n and nums[i]<nums[2*i+2]:
+            
                 nums[i],nums[2*i+2]=nums[2*i+2],nums[i]#
+                
             else:```
 
 ## 相同之處
