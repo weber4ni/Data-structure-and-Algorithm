@@ -74,3 +74,4 @@ class Solution(object):
                 root.target = k.target  
                 root.left = self.delete(root.left, k.target) 
         return root
+    ##參考資料 https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
