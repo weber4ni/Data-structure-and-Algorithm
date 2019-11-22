@@ -16,3 +16,4 @@
 
 
 參考資料:http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html
+參考資料:http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html
