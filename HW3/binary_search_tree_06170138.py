@@ -1,21 +1,76 @@
 class TreeNode(object):
-	def _init_(self,x):
-		self.val =x
-		self.left = None
-		self.right = None
-		class Solution(object):
-			def insert(self ,root,val):
-				node1 = TreeNode(val)
-				if root.val:
-					if x<root.val:
-						if root.left is None :
-							root.left = TreeNode(x)
-					else:
-						root.left.insert(x)
-				elif x>=root.val:
-					if root.rigjt is None :
-						root.right = TreeNode(x)
-					else:
-						root.right.insert(x)
-				else:
-					root.val = x
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+        
+class Solution(object):
+    def insert(self, root, val): 
+        if root.val > val: 
+            if root.left is None: 
+                root.left = TreeNode(val)
+            else: 
+                self.insert(root.left, val) 
+        else: 
+            if root is None: 
+                root = TreeNode(val)
+            elif root.right is None: 
+                root.right = TreeNode(val)
+            else: 
+                self.insert(root.right, val) 
+                
+    def search(self, root, target):
+        if target > root.val : 
+            return self.search(root.right, target)
+        if root.val > target:
+            return self.search(root.left, target) 
+        else:
+            return root
+        
+    def modify(self, root, target, new_val):
+        root = self.delete(root, target)  
+        root = self.insert(root, new_val) 
+        return root 
+                    
+    def inorder(self, root):
+        if root is None: 
+            return     
+        else:
+            self.inorder(root.left) 
+            print(root.val)
+            self.inorder(root.right)
+            
+    def minval(self, root): 
+        while root.left is not None:  
+            root = root.left 
+        return root  
+    
+    def maxval(self, root): 
+        while root.right is not None:  
+            root = root.right 
+        return root
+    
+    def right_minval(self, root): 
+        self.minval(root.rigt) 
+    
+    def left_maxval(self, root): 
+        self.maxval(root.left)
+
+    def delete(self, root, target): 
+        if root == None:  
+            return
+        if root.val > target:  
+            root.left = self.delete(root.left, target) 
+        elif target > root.val:  
+            root.right = self.delete(root.right, target) 
+        else: 
+            if root.right != None: 
+                k = root.right 
+                return k 
+            if root.left != None: 
+                k = root.left 
+                return k 
+                k = self.left_maxval(root)  
+                root.target = k.target  
+                root.left = self.delete(root.left, k.target) 
+        return root
