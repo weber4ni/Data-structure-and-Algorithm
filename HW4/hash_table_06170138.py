@@ -57,3 +57,7 @@ class MyHashSet:
                     
             self.remove(key)
             
+##參考資料
+##https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
+##http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
+##https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/
