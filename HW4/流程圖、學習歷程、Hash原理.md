@@ -11,3 +11,9 @@ Hash Table希望能夠將存放資料的「Table」的大小(size)降到「真�
 -----------------------------
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/5.png" height='700' weight='550'>
 
+
+
+參考資料
+http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
+
+
