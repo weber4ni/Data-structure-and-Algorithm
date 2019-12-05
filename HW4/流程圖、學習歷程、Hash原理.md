@@ -7,3 +7,5 @@ Hash Table希望能夠將存放資料的「Table」的大小(size)降到「真�
 ※※但是如果碰撞到相同值時，可以使用Linked list把「Hashing到同一個slot」的資料串起來
 ##流程圖
 -----------------------------
+<img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/5.png" height='300' weight='150'>
+
