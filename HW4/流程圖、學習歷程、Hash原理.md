@@ -14,12 +14,9 @@ Hash Function 是將輸入的數字、文字轉譯成特定的職，特性為單
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/5.png" height='700' weight='550'>
 
 ## 學習歷程 
-
 -----------------------------
-
-
-
 參考資料
+
 http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
 https://blog.kdchang.cc/2016/09/23/javascript-data-structure-algorithm-dictionary-hash-table/
 https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/
