@@ -7,8 +7,6 @@
 Hash Function 是將輸入的數字、文字轉譯成特定的職，特性為單向性、不可逆性，Hash Function好不好用是Hash Table 的關鍵
 
 ※※但是如果碰撞到相同值時，可以使用Linked list把「Hashing到同一個slot」的資料串起來
-
-
 ## 流程圖
 -----------------------------
 <img src="https://github.com/weberliao/Data-structure-and-Algorithm/blob/README.md/5.png" height='700' weight='550'>
